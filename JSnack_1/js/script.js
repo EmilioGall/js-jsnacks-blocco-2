@@ -7,10 +7,16 @@ const inputNum = parseInt(prompt(`Hello, User! Insert a numer.`));
 
 console.log(inputNum, "Input", typeof inputNum);
 
-for ( i = 0; i < inputNum; i++) {
+for (let i = 0; i < inputNum; i++) {
 
     let newArray = [];
 
     console.log(newArray, "Input Number");
+
+};
+
+for (let i = 0; i < 10; i++) {
+
+    newArray.push(Math.floor(Math.random() * 100));
 
 };
