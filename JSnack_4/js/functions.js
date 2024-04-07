@@ -1,7 +1,7 @@
 /**
- * Description: function return true if strings in stringsArray have same length.
- * @param {object} inputArray array of elements.
- * @returns {number} number of array elements.
+ * Description: function returns index of (elemToFind) in (containerArray).
+ * @param {object} containerArray array of elements.
+ * @returns {number} index of element in (containerArray).
  */
 function findIndex(containerArray, elemToFind) {
 
@@ -18,7 +18,7 @@ function findIndex(containerArray, elemToFind) {
             result = i;
 
             break;
-            
+
         };
 
     };
