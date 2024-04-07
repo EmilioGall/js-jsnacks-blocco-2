@@ -15,7 +15,6 @@ function printArray(containerArray) {
 
         result += ` ${curElem},`
 
-
     };
 
     console.log("result", result, typeof result);
