@@ -3,20 +3,16 @@
 // Genera N array, ognuno formato da 10 numeri casuali tra 1 e 100.
 // Ogni volta che ne crei uno, stampalo a schermo.
 
-const inputNum = parseInt(prompt(`Hello, User! Insert a numer.`));
+const inputNum = parseInt(prompt(`Hello, User! Insert the number of arrays you want to print.`));
 
-console.log(inputNum, "Input", typeof inputNum);
+console.log("Input number", inputNum, typeof inputNum);
 
 for (let i = 0; i < inputNum; i++) {
 
-    let newArray = [];
+    const fullArray = numInArray(10)
 
-    console.log(newArray, "Input Number");
+    console.log(fullArray);
 
-};
-
-for (let i = 0; i < 10; i++) {
-
-    newArray.push(Math.floor(Math.random() * 100));
+    printArrayIn(fullArray, "output")
 
 };
