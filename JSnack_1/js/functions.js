@@ -34,7 +34,7 @@ function numInArray(nNum) {
 
 
 /**
- * Description: function print an array (arrayToPrint) in an element (resultId).
+ * Description: function print an array (arrayToPrint) in a unordered list element (resultId).
  * @param {object} arrayToPrint array to print.
  * @param {string} resultId id of the element where we print.
  */
